@@ -1,0 +1,87 @@
+
+*{
+    padding: 0;
+    margin: 0;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+}
+.nav{
+    background-color: black;
+    color: aliceblue;
+    
+}
+.nav h1{
+    padding-left: 30px;
+    font-size: 40px;
+    font-weight: 600;
+
+}
+.instruction{
+    margin: 10px 20px;
+}
+.hr{
+   padding: 10px 20px;
+   margin-left: 20px;
+   margin-right: 20px;
+   color: black;
+
+}
+.Q{
+    margin: 10px 60px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+  
+}
+.q{
+    color: black;
+    font-weight: bold;
+}
+.buttons{
+    margin-top: 50px;
+    margin-left: 10%;
+
+}
+.label{
+    margin-bottom: 20px;
+}
+.ans{
+    padding-left: 20px;
+    padding-bottom: 3px;
+    padding-top: 3px;
+    border: 1px solid black;
+    text-transform: capitalize;
+  
+}
+button{
+    padding: 10px 30px;
+    background-color: rgb(39, 39, 39);
+    color: aliceblue;
+}
+.Submit{
+    border-radius: 24px;
+    margin-right: 20px;
+}
+.checkscore{
+    border: 1px solid black;
+    font-size: 60px;
+    color: black;
+    background-color: rgb(208, 208, 205);
+    margin-top: 40px;
+    margin-left: 20px;
+    width: 40%;
+    padding: 20px 50px;
+
+}
+.checkscore{
+    display: none;
+}
+
+footer{
+    margin-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+}
